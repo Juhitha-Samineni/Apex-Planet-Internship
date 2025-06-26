@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Granite Gallery</title>
+  <link rel="stylesheet" href="style.min.css" />
+</head>
+<body>
+  <header>
+    <h1>Granite Gallery</h1>
+    <div class="filters">
+      <select id="categoryFilter">
+        <option value="all">All</option>
+        <option value="black">Black</option>
+        <option value="red">Red</option>
+      </select>
+
+      <select id="sortOption">
+        <option value="price">Price</option>
+        <option value="rating">Rating</option>
+      </select>
+    </div>
+  </header>
+
+  <main id="product-list"></main>
+
+  <section class="cart-section">
+    <h2>Your Cart</h2>
+    <ul id="cart-list"></ul>
+  </section>
+
+  <script src="script.min.js"></script>
+</body>
+</html>
